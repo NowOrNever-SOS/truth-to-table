@@ -12,7 +12,7 @@ const comparisons = [
   },
   {
     says: '"We serve ALL residents"',
-    truth: "Migrant healthcare: $1.6B+. Your kids' school funding? Fought over every year.",
+    truth: "$2.5B+ on migrant care by end of 2025. Meanwhile, 95% of the residents leaving go to lower-tax states.",
   },
   {
     says: '"Illinois is a great place to live"',

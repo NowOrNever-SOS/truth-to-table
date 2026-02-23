@@ -8,10 +8,10 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 
 const forThem = [
   {
-    year: "2024",
-    title: "16% Lawmaker Pay Raise",
-    detail: "Legislator salaries jumped from ~$73K to $85K/year — plus per diems and leadership stipends. Signed quietly inside a budget bill.",
-    source: "Capitol News Illinois",
+    year: "2019–25",
+    title: "Lawmaker Pay: $67K → $93K+ (39% Raise)",
+    detail: "Through annual cost-of-living adjustments legislators vote on for themselves, IL lawmaker base pay has climbed from ~$67K to over $93,000 — making them the 4th highest-paid state legislators in America. Plus per diems, mileage, and leadership stipends worth tens of thousands more.",
+    source: "Capitol News Illinois / NewsChannel 20",
   },
   {
     year: "2025",
@@ -28,8 +28,8 @@ const forThem = [
   {
     year: "2025",
     title: "Tier 2 Pension Reform Bill (Pending)",
-    detail: "A bill moving through Springfield would expand pension benefits for all Tier II government employees — teachers, state workers, university staff. Estimated cost: billions more in unfunded liability passed to taxpayers.",
-    source: "NPR Illinois / Capitol News",
+    detail: "A bill moving through Springfield would expand pension benefits for all Tier II government employees — teachers, state workers, university staff. Illinois Policy Institute estimate: $53 billion in new unfunded liability passed to taxpayers.",
+    source: "NPR Illinois / IL Policy Institute",
   },
   {
     year: "2023–25",
@@ -94,7 +94,7 @@ const scorecard = [
   { label: "Unfunded Pension Debt", value: "$147.8B", trend: "up" },
   { label: "Total State Liabilities", value: "$228.5B", trend: "up" },
   { label: "Your Family's Share (family of 4)", value: "$46,400", trend: "up" },
-  { label: "Net Outmigration Since 2020", value: "420,678", trend: "up" },
+  { label: "Domestic Outmigration Since 2020", value: "420,678", trend: "up" },
   { label: "National Bond Rating Rank", value: "50th", trend: "down" },
   { label: "Migrant Spending (through 2025)", value: "$2.5B", trend: "up" },
 ];
@@ -271,13 +271,13 @@ const PritzkerPriorities = () => {
               </p>
             </div>
             <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-4 font-serif">
-              Tier 2 Pension Reform: Another Benefit Boost for Government Workers
+              The $53 Billion Pension Sweetener They're Voting On Right Now
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              A bill currently advancing through Springfield would <span className="text-foreground font-semibold">expand pension benefits for all Tier II government employees</span> — including teachers, state university workers, and general state employees hired after 2011.
+              A bill advancing through Springfield would <span className="text-foreground font-semibold">expand pension benefits for all Tier II government employees</span> — teachers, state workers, university staff hired after 2011. The Illinois Policy Institute estimates the cost at <span className="text-stat font-semibold">$53 billion in new unfunded liability</span>.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              The justification? Illinois' Tier II pensions may fall below Social Security's "Safe Harbor" threshold, meaning the state could be forced to enroll workers in Social Security — costing billions. Rather than fix the structural problem, the proposed solution is to <span className="text-stat font-semibold">sweeten pensions and pass the bill to taxpayers</span>.
+              The justification? Tier II pensions may fall below Social Security's "Safe Harbor" threshold, potentially forcing the state to enroll workers in Social Security. Rather than fix the structural problem, the proposed solution is to <span className="text-stat font-semibold">sweeten pensions and hand the $53 billion tab to taxpayers</span>.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Pritzker himself acknowledged there's "a lot more work to do" — but signed the Chicago police/fire pension sweetener anyway. The broader Tier II bill would dwarf that cost.
@@ -303,10 +303,13 @@ const PritzkerPriorities = () => {
             <ShieldAlert className="w-12 h-12 text-stat mx-auto mb-6" />
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6 leading-tight">
               This Isn't Mismanagement.<br />
-              <span className="text-stat">It's a Statement of Priorities.</span>
+              <span className="text-stat">It's a Choice — and You're Not the One They Chose.</span>
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              When government workers get <span className="text-highlight font-semibold">raises, sweetened pensions, and expanded benefits</span> — while you get <span className="text-stat font-semibold">doubled gas taxes, higher fees, and blocked relief</span> — that's not an accident. That's a budget that tells you exactly who matters.
+            <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+              When government workers get <span className="text-highlight font-semibold">39% pay raises, $53 billion in pension sweeteners, and expanded benefits</span> — while you get <span className="text-stat font-semibold">doubled gas taxes, higher fees, and your relief bills killed in committee</span> — that's not an accident.
+            </p>
+            <p className="text-foreground text-xl font-serif leading-relaxed mb-8">
+              That's a budget that tells you exactly who matters in Springfield — and it isn't you.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
               <div className="bg-card border border-border rounded-sm p-5">
@@ -330,10 +333,10 @@ const PritzkerPriorities = () => {
       <footer className="px-6 py-12 section-divider">
         <div className="max-w-4xl mx-auto text-center">
           <p className="font-mono text-xs text-subtext tracking-wider">
-            Sources: Capitol News Illinois · Illinois Policy Institute · NPR Illinois · Fox 32 Chicago · CTBA · Civic Federation
+            Sources: Capitol News Illinois · Illinois Policy Institute · NPR Illinois · Fox 32 Chicago · CTBA · Civic Federation · U.S. Census Bureau · NewsChannel 20
           </p>
           <p className="font-mono text-[10px] text-subtext mt-2">
-            All figures from public records, legislative filings, and nonpartisan analysis.
+            All figures from public records, legislative filings, and nonpartisan analysis. Last verified February 2026.
           </p>
           <div className="mt-6 flex justify-center gap-4">
             <Link to="/" className="text-subtext hover:text-foreground font-mono text-xs uppercase tracking-wider transition-colors">Home</Link>
