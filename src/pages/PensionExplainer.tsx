@@ -239,7 +239,7 @@ const FamilyCostSection = () => {
   const costs = [
     { label: "Your share of pension debt", amount: "$11,600", note: "per person" },
     { label: "Family of four's share", amount: "$46,400", note: "before you pay a dime in taxes" },
-    { label: "Median IL property tax / year", amount: "$5,100", note: "highest in the Midwest" },
+    { label: "Median IL property tax / year", amount: "$4,942", note: "#1 highest in the nation" },
     { label: "Your annual pension-debt tax bite", amount: "~$2,400", note: "of your state taxes go straight to pensions" },
   ];
 
