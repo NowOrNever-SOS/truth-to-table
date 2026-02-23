@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 const receiptItems = [
   { label: "State Income Tax", value: "$35.1B" },
-  { label: "Property Tax (avg $9,000/home)", value: "$9,000/yr" },
+  { label: "Property Tax (median household)", value: "$4,942/yr" },
   { label: 'Sin Revenue (gambling/weed/lottery)', value: "$3.4B" },
   { label: "Federal Pass-Through", value: "$39.5B" },
 ];
@@ -27,7 +27,7 @@ const ReceiptSection = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-12"
         >
-          <p className="font-mono text-xs tracking-[0.3em] uppercase text-subtext mb-4">Concept: The Receipt</p>
+          <p className="font-mono text-xs tracking-[0.3em] uppercase text-subtext mb-4">The Receipt</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Your Illinois Bill</h2>
         </motion.div>
 

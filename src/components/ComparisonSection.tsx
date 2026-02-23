@@ -41,7 +41,7 @@ const ComparisonSection = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <p className="font-mono text-xs tracking-[0.3em] uppercase text-subtext mb-4">Concept: The Side-by-Side</p>
+          <p className="font-mono text-xs tracking-[0.3em] uppercase text-subtext mb-4">The Side-by-Side</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">What They Say</h2>
           <h2 className="text-3xl sm:text-4xl font-bold text-stat">vs. What The Numbers Show</h2>
         </motion.div>

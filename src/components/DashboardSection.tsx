@@ -38,7 +38,7 @@ const DashboardSection = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <p className="font-mono text-xs tracking-[0.3em] uppercase text-subtext mb-4">Concept: The Dashboard</p>
+          <p className="font-mono text-xs tracking-[0.3em] uppercase text-subtext mb-4">The Dashboard</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">The Three-Tier Reality</h2>
           <p className="text-subtext max-w-2xl mx-auto">
             The state shows you the checkbook. They don't show you the mortgage underneath it.

@@ -3,12 +3,12 @@ import { useRef } from "react";
 import AnimatedCounter from "./AnimatedCounter";
 
 const stats = [
-  { label: "Tax burden per household", value: "$13,099/yr", sub: "#1 in the nation for median-income earners" },
+  { label: "Tax burden per household", value: "$13,099/yr", sub: "#1 in the nation for median-income earners (WalletHub)" },
   { label: "Above national average", value: "52%", sub: "$4,472 extra per family, every year" },
-  { label: "Low-income tax rate", value: "14%", sub: "Worst state in the country" },
-  { label: "Property tax rank", value: "#2", sub: "Average $9,000/year per household" },
-  { label: "Bond rating streak", value: "13 yrs", sub: "Lowest of any U.S. state — longest streak in history" },
-  { label: "Financial transparency rank", value: "50th", sub: "7 consecutive years of illegal reporting delays" },
+  { label: "Low-income tax rate", value: "14%", sub: "Worst state in the country (WalletHub)" },
+  { label: "Property tax rank", value: "#1", sub: "Highest effective rate in the nation — surpassed New Jersey" },
+  { label: "Bond rating rank", value: "50th", sub: "Lowest of any U.S. state — even after 2025 upgrade" },
+  { label: "Financial transparency rank", value: "50th", sub: "774 days late on financial reporting — a national record (Truth in Accounting)" },
 ];
 
 const ExodusSection = () => {
@@ -61,8 +61,8 @@ const ExodusSection = () => {
           className="mt-20 text-center max-w-3xl mx-auto"
         >
           <blockquote className="text-xl sm:text-2xl font-serif text-foreground italic leading-relaxed">
-            "This isn't a budget. It's a slow transfer of wealth from people who worked here 
-            to a system that's been broken longer than your kids have been alive."
+            This isn't a budget. It's a slow transfer of wealth from people who worked here 
+            to a system that's been broken longer than your kids have been alive.
           </blockquote>
         </motion.div>
       </div>
