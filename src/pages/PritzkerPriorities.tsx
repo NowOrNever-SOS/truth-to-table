@@ -1,5 +1,5 @@
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, AlertTriangle, TrendingUp, TrendingDown, Scale, Users, DollarSign, Building2, ShieldAlert } from "lucide-react";
 import AnimatedCounter from "@/components/AnimatedCounter";
@@ -156,6 +156,16 @@ const PritzkerPriorities = () => {
   const verdictInView = useInView(verdictRef, { once: true, margin: "-40px" });
   const billRef = useRef(null);
   const billInView = useInView(billRef, { once: true, margin: "-40px" });
+
+  useEffect(() => {
+    document.title = "Pritzker Priorities — What They Got vs. What You Paid";
+    document.querySelector('meta[property="og:title"]')?.setAttribute("content", "Pritzker Priorities");
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", "Pritzker Priorities");
+    document.querySelector('meta[property="og:description"]')?.setAttribute("content", "A side-by-side record of Governor Pritzker's legislative priorities — the bills that benefited insiders vs. the taxes imposed on you.");
+    document.querySelector('meta[name="description"]')?.setAttribute("content", "A side-by-side record of Governor Pritzker's legislative priorities — the bills that benefited insiders vs. the taxes imposed on you.");
+  }, []);
+
+
 
   return (
     <main className="bg-background min-h-screen">
