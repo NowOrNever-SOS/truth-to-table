@@ -1,9 +1,8 @@
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import AnimatedCounter from "@/components/AnimatedCounter";
-
 const fade = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
@@ -14,6 +13,14 @@ const fade = {
 };
 
 const PensionExplainer = () => {
+  useEffect(() => {
+    document.title = "J.B.'s Pension Problem — Illinois Pension Crisis Explained";
+    document.querySelector('meta[property="og:title"]')?.setAttribute("content", "J.B.'s Pension Problem");
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", "J.B.'s Pension Problem");
+    document.querySelector('meta[property="og:description"]')?.setAttribute("content", "Illinois owes $147.8 billion in pension promises it can't cover. Here's what that means for your family.");
+    document.querySelector('meta[name="description"]')?.setAttribute("content", "Illinois owes $147.8 billion in pension promises it can't cover. Here's what that means for your family.");
+  }, []);
+
   return (
     <main className="bg-background min-h-screen text-foreground">
       {/* Nav */}
